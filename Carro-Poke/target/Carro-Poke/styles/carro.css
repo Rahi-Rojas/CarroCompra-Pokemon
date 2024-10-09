@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #b22222; /* Rojo */
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white; /* Fondo blanco para la tabla */
+    border: 1px solid #b22222; /* Borde rojo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para las cabeceras de la tabla */
+th {
+    background-color: #4682b4; /* Azul */
+    color: white; /* Texto blanco */
+    padding: 10px;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #b22222; /* Borde rojo para las filas */
+}
+
+/* Estilo para el total */
+td[colspan="4"] {
+    font-weight: bold;
+    background-color: #f0f0f0; /* Color de fondo claro para la fila total */
+}
+
+/* Estilo para el mensaje cuando el carrito está vacío */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #b22222; /* Rojo */
+    margin-top: 20px;
+}
